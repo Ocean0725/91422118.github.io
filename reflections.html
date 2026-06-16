@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網頁製作學習心得</title>
+    <style>
+        body { 
+            font-family: Microsoft JhengHei, sans-serif; 
+            margin: 0; 
+            background: linear-gradient(to bottom right, #2c3e50, #fd746c); /* 文字背景顏色 */
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.8;
+        }
+        .content-box { 
+            max-width: 700px; 
+            background: rgba(255, 255, 255, 0.15); 
+            backdrop-filter: blur(10px);
+            padding: 3rem; 
+            border-radius: 12px; 
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        h1 { color: #fff; border-bottom: 2px solid #fff; padding-bottom: 10px; }
+        p { text-align: justify; }
+        .back-link { display: inline-block; margin-top: 2rem; color: #ffeb3b; text-decoration: none; font-weight: bold; }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="content-box">
+        <h1>網頁設計專題 - 學習心得</h1>
+        <p>在這個網頁製作專案中，我學到了如何利用 HTML5 與 CSS3 來建構多頁面（Multi-page）網站。在規劃高雄建築地標主題時，不僅需要思考首頁（index.html）與各個分頁之間的**超連結跳轉邏輯**，更要在 CSS 視覺設計上與地標本身的現代流線感相呼應。</p>
+        
+        <p>最大的收穫是練習了 **CSS RWD（響應式網頁設計）** 的 Grid 與 Flexbox 佈局，讓網頁在手機與電腦螢幕上都能有良好的易讀性。此外，在心得頁中使用了毛玻璃（Glassmorphism）純文字背景特效，省去了大圖的沉重感，反而更突顯文字內容。</p>
+
+        <p>最後，將檔案推送到 GitHub 並開啟 **GitHub Pages** 服務，讓我初次體驗到網頁從在地端開發（Localhost）到實際「上線公諸於世」的完整工程流程，對於未來操作易課平台等線上管理系統也更有信心！</p>
+        <hr>
+        <a href="index.html" class="back-link">← 返回首頁 (index.html)</a>
+    </div>
+</body>
+</html>
